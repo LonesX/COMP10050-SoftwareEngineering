@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/main.c" "D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/cmake-build-debug/CMakeFiles/Project_2.dir/main.c.obj"
+  "D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/interface.c" "D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/cmake-build-debug/CMakeFiles/Project_2.dir/src/interface.c.obj"
+  "D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/main.c" "D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/cmake-build-debug/CMakeFiles/Project_2.dir/src/main.c.obj"
+  "D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/moves.c" "D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/cmake-build-debug/CMakeFiles/Project_2.dir/src/moves.c.obj"
+  "D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/player.c" "D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/cmake-build-debug/CMakeFiles/Project_2.dir/src/player.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

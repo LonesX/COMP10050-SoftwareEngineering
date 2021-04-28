@@ -142,32 +142,113 @@ Project_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/build
 .PHONY : Project_2/fast
 
-main.obj: main.c.obj
+src/interface.obj: src/interface.c.obj
 
-.PHONY : main.obj
+.PHONY : src/interface.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/main.c.obj
-.PHONY : main.c.obj
+src/interface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/src/interface.c.obj
+.PHONY : src/interface.c.obj
 
-main.i: main.c.i
+src/interface.i: src/interface.c.i
 
-.PHONY : main.i
+.PHONY : src/interface.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/main.c.i
-.PHONY : main.c.i
+src/interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/src/interface.c.i
+.PHONY : src/interface.c.i
 
-main.s: main.c.s
+src/interface.s: src/interface.c.s
 
-.PHONY : main.s
+.PHONY : src/interface.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/main.c.s
-.PHONY : main.c.s
+src/interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/src/interface.c.s
+.PHONY : src/interface.c.s
+
+src/main.obj: src/main.c.obj
+
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/src/main.c.obj
+.PHONY : src/main.c.obj
+
+src/main.i: src/main.c.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/moves.obj: src/moves.c.obj
+
+.PHONY : src/moves.obj
+
+# target to build an object file
+src/moves.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/src/moves.c.obj
+.PHONY : src/moves.c.obj
+
+src/moves.i: src/moves.c.i
+
+.PHONY : src/moves.i
+
+# target to preprocess a source file
+src/moves.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/src/moves.c.i
+.PHONY : src/moves.c.i
+
+src/moves.s: src/moves.c.s
+
+.PHONY : src/moves.s
+
+# target to generate assembly for a file
+src/moves.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/src/moves.c.s
+.PHONY : src/moves.c.s
+
+src/player.obj: src/player.c.obj
+
+.PHONY : src/player.obj
+
+# target to build an object file
+src/player.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/src/player.c.obj
+.PHONY : src/player.c.obj
+
+src/player.i: src/player.c.i
+
+.PHONY : src/player.i
+
+# target to preprocess a source file
+src/player.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/src/player.c.i
+.PHONY : src/player.c.i
+
+src/player.s: src/player.c.s
+
+.PHONY : src/player.s
+
+# target to generate assembly for a file
+src/player.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2.dir\build.make CMakeFiles/Project_2.dir/src/player.c.s
+.PHONY : src/player.c.s
 
 # Help Target
 help:
@@ -178,9 +259,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Project_2
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/interface.obj
+	@echo ... src/interface.i
+	@echo ... src/interface.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
+	@echo ... src/moves.obj
+	@echo ... src/moves.i
+	@echo ... src/moves.s
+	@echo ... src/player.obj
+	@echo ... src/player.i
+	@echo ... src/player.s
 .PHONY : help
 
 

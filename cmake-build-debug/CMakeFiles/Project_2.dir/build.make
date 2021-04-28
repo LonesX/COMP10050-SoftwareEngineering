@@ -76,32 +76,77 @@ include CMakeFiles/Project_2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Project_2.dir/flags.make
 
-CMakeFiles/Project_2.dir/main.c.obj: CMakeFiles/Project_2.dir/flags.make
-CMakeFiles/Project_2.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project_2.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project_2.dir\main.c.obj   -c "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\main.c"
+CMakeFiles/Project_2.dir/src/main.c.obj: CMakeFiles/Project_2.dir/flags.make
+CMakeFiles/Project_2.dir/src/main.c.obj: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project_2.dir/src/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project_2.dir\src\main.c.obj   -c "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\src\main.c"
 
-CMakeFiles/Project_2.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project_2.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\main.c" > CMakeFiles\Project_2.dir\main.c.i
+CMakeFiles/Project_2.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project_2.dir/src/main.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\src\main.c" > CMakeFiles\Project_2.dir\src\main.c.i
 
-CMakeFiles/Project_2.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project_2.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\main.c" -o CMakeFiles\Project_2.dir\main.c.s
+CMakeFiles/Project_2.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project_2.dir/src/main.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\src\main.c" -o CMakeFiles\Project_2.dir\src\main.c.s
+
+CMakeFiles/Project_2.dir/src/interface.c.obj: CMakeFiles/Project_2.dir/flags.make
+CMakeFiles/Project_2.dir/src/interface.c.obj: ../src/interface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Project_2.dir/src/interface.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project_2.dir\src\interface.c.obj   -c "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\src\interface.c"
+
+CMakeFiles/Project_2.dir/src/interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project_2.dir/src/interface.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\src\interface.c" > CMakeFiles\Project_2.dir\src\interface.c.i
+
+CMakeFiles/Project_2.dir/src/interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project_2.dir/src/interface.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\src\interface.c" -o CMakeFiles\Project_2.dir\src\interface.c.s
+
+CMakeFiles/Project_2.dir/src/moves.c.obj: CMakeFiles/Project_2.dir/flags.make
+CMakeFiles/Project_2.dir/src/moves.c.obj: ../src/moves.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Project_2.dir/src/moves.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project_2.dir\src\moves.c.obj   -c "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\src\moves.c"
+
+CMakeFiles/Project_2.dir/src/moves.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project_2.dir/src/moves.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\src\moves.c" > CMakeFiles\Project_2.dir\src\moves.c.i
+
+CMakeFiles/Project_2.dir/src/moves.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project_2.dir/src/moves.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\src\moves.c" -o CMakeFiles\Project_2.dir\src\moves.c.s
+
+CMakeFiles/Project_2.dir/src/player.c.obj: CMakeFiles/Project_2.dir/flags.make
+CMakeFiles/Project_2.dir/src/player.c.obj: ../src/player.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Project_2.dir/src/player.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Project_2.dir\src\player.c.obj   -c "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\src\player.c"
+
+CMakeFiles/Project_2.dir/src/player.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project_2.dir/src/player.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\src\player.c" > CMakeFiles\Project_2.dir\src\player.c.i
+
+CMakeFiles/Project_2.dir/src/player.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project_2.dir/src/player.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\src\player.c" -o CMakeFiles\Project_2.dir\src\player.c.s
 
 # Object files for target Project_2
 Project_2_OBJECTS = \
-"CMakeFiles/Project_2.dir/main.c.obj"
+"CMakeFiles/Project_2.dir/src/main.c.obj" \
+"CMakeFiles/Project_2.dir/src/interface.c.obj" \
+"CMakeFiles/Project_2.dir/src/moves.c.obj" \
+"CMakeFiles/Project_2.dir/src/player.c.obj"
 
 # External object files for target Project_2
 Project_2_EXTERNAL_OBJECTS =
 
-Project_2.exe: CMakeFiles/Project_2.dir/main.c.obj
+Project_2.exe: CMakeFiles/Project_2.dir/src/main.c.obj
+Project_2.exe: CMakeFiles/Project_2.dir/src/interface.c.obj
+Project_2.exe: CMakeFiles/Project_2.dir/src/moves.c.obj
+Project_2.exe: CMakeFiles/Project_2.dir/src/player.c.obj
 Project_2.exe: CMakeFiles/Project_2.dir/build.make
 Project_2.exe: CMakeFiles/Project_2.dir/linklibs.rsp
 Project_2.exe: CMakeFiles/Project_2.dir/objects1.rsp
 Project_2.exe: CMakeFiles/Project_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Project_2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Desktop\COMP\COMP10050_SoftwareEngineering\Project 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Project_2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Project_2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
