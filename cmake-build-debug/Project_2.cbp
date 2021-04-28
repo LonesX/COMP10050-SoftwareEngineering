@@ -74,7 +74,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/main.c">
+		<Unit filename="D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/main.h">
+			<Option target="Project_2"/>
+		</Unit>
+		<Unit filename="D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/player.h">
+			<Option target="Project_2"/>
+		</Unit>
+		<Unit filename="D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/interface.c">
+			<Option target="Project_2"/>
+		</Unit>
+		<Unit filename="D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/main.c">
+			<Option target="Project_2"/>
+		</Unit>
+		<Unit filename="D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/moves.c">
+			<Option target="Project_2"/>
+		</Unit>
+		<Unit filename="D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/player.c">
 			<Option target="Project_2"/>
 		</Unit>
 		<Unit filename="D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/CMakeLists.txt">

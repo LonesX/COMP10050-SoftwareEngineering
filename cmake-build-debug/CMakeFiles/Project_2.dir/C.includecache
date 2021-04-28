@@ -6,7 +6,27 @@
 
 #IncludeRegexTransform: 
 
-D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/main.c
+D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/interface.h
+
+D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/moves.h
+stdbool.h
+-
+
+D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/player.h
+
+D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/main.c
 stdio.h
+-
+../lib/interface.h
+D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/interface.h
+../lib/moves.h
+D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/moves.h
+../lib/player.h
+D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/player.h
+stdlib.h
+D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/stdlib.h
+time.h
+D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/time.h
+stdbool.h
 -
 
