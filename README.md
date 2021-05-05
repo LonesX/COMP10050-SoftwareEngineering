@@ -1,14 +1,14 @@
 # COMP10050 Assignment 2
 ## Lones Xheladini (20331731)
 
-###Board
+Board
 * The board was implemented using a 2D char array filled with, ' ' , 'B' and 'W'.
 
 * When a move is needed to be made then the spot board[x][x] is filled with whichever colour.
 
 * Most of the board related functions are in interface.c.
 
-###Player
+Player
 * The player is initialised from the othelloPlayer struct in main.h, this is used to keep all player related stats.
 
 * Both player names are kept in player(1/2).name.
@@ -18,7 +18,7 @@
 * Both player colours are kept in player(1/2).colour.
 
 * The use of the randomisePlayer() is used to find who goes first.
-### Game logic
+Game logic
 * The game is started using the play() function.
 
 * There is a 2D bool array with all falses on it. Then the validmove function will make all the validmoves on the bool table to TRUE.
