@@ -1,25 +1,30 @@
-//
-// Created by Lones on 28/04/2021.
-//
-
 #include "../lib/player.h"
 #include "time.h"
 #include "stdlib.h"
 
-int randomisePlayer(void){
+int randomisePlayer(void) {
     srand(time(NULL));
-    int player = (rand() % (2-1+1))  +  1;
+    int player = (rand() % (2 - 1 + 1)) + 1;
 
     return player;
 }
 
 
-int swapPlayer(int currentPlayer){
-    if(currentPlayer == 1){
-        currentPlayer = 2;
-    }else
-    {
-        currentPlayer = 1;
+int swapPlayer(int currentPlayer) {
+    if (currentPlayer == 1) {
+        return 2;
+    } else {
+        return 1;
     }
-    return currentPlayer;
+}
+
+
+void playerFind(int player, int *playerC, int *opponent) {
+    if (player == 1) {
+        *opponent = 'W';
+        *playerC = 'B';
+    } else {
+        *opponent = 'B';
+        *playerC = 'W';
+    }
 }

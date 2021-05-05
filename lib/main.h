@@ -5,17 +5,17 @@
 #ifndef PROJECT_2_MAIN_H
 #define PROJECT_2_MAIN_H
 
-enum othelloColour{
+enum othelloColour {
     BLACK = 'B',
     WHITE = 'W',
     EMPTY = ' ',
 };
 
-typedef struct othelloPlayer{
+typedef struct othelloPlayer {
     char name[20];
     enum othelloColour colour;
     int score;
-}othelloPlayer;
+} othelloPlayer;
 
 othelloPlayer player1, player2;
 

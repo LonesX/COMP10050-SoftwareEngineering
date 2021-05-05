@@ -3,14 +3,15 @@
 
 CMakeFiles/Project_2.dir/src/interface.c.obj: ../lib/interface.h
 CMakeFiles/Project_2.dir/src/interface.c.obj: ../lib/main.h
+CMakeFiles/Project_2.dir/src/interface.c.obj: ../lib/moves.h
 CMakeFiles/Project_2.dir/src/interface.c.obj: ../lib/player.h
 CMakeFiles/Project_2.dir/src/interface.c.obj: ../src/interface.c
 
 CMakeFiles/Project_2.dir/src/main.c.obj: ../lib/interface.h
 CMakeFiles/Project_2.dir/src/main.c.obj: ../lib/moves.h
-CMakeFiles/Project_2.dir/src/main.c.obj: ../lib/player.h
 CMakeFiles/Project_2.dir/src/main.c.obj: ../src/main.c
 
+CMakeFiles/Project_2.dir/src/moves.c.obj: ../lib/interface.h
 CMakeFiles/Project_2.dir/src/moves.c.obj: ../lib/moves.h
 CMakeFiles/Project_2.dir/src/moves.c.obj: ../lib/player.h
 CMakeFiles/Project_2.dir/src/moves.c.obj: ../src/moves.c

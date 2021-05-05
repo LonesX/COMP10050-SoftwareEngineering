@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/interface.h
+stdbool.h
+-
+
+D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/main.h
 
 D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/moves.h
 stdbool.h
@@ -14,19 +18,21 @@ stdbool.h
 
 D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/player.h
 
-D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/main.c
-stdio.h
--
+D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/interface.c
 ../lib/interface.h
 D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/interface.h
+../lib/main.h
+D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/main.h
 ../lib/moves.h
 D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/moves.h
 ../lib/player.h
 D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/lib/player.h
-stdlib.h
-D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/stdlib.h
-time.h
-D:/Desktop/COMP/COMP10050_SoftwareEngineering/Project 2/src/time.h
+stdio.h
+-
+string.h
+-
 stdbool.h
+-
+time.h
 -
 
