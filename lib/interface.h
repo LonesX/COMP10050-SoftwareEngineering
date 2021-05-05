@@ -28,5 +28,6 @@ void getXY(int* x, int* y, int *move);
 void printFinal(char board[8][8]);
 
 
-
+void rowCheck(int x, int y, char board[8][8], bool validMoves[8][8], int rowDirection, int columnDirection, int *movesAmount,
+         int playerC, int opponent, int type);
 #endif //PROJECT_2_INTERFACE_H

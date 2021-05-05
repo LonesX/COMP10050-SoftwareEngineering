@@ -169,36 +169,3 @@ void make_move(char board[8][8], int x, int y, int player) {
     }
 }
 
-//This function checks the entire row to find and succesfully flip each opponent piece to the new player colour
-void
-rowCheck(int x, int y, char board[8][8], bool validMoves[8][8], int rowDirection, int columnDirection, int *movesAmount,
-         int playerC, int opponent, int type) {
-    //gets the next in line piece using basic coordinate system
-    int a = x + rowDirection;
-    int b = y + columnDirection;
-//    Keeps going through every piece in that direction until case is met
-    while (true) {
-        a += rowDirection;
-        b += columnDirection;
-//    If the piece is a blank then quit function
-        if (board[a][b] == ' ') {
-            break;
-//            If the there is a friendly piece(when being run for validmoves) it will turn the board to true
-        } else if (board[a][b] == playerC) {
-            if (type == 0) {
-                validMoves[x][y] = true;
-                *movesAmount += 1;
-                break;
-            }
-//          If the function is being run from make_move func then it will flip everything in that direction.
-            if (type == 1) {
-                while (board[a -= rowDirection][b -= columnDirection] == opponent) {
-                    board[a][b] = playerC;
-                }
-                break;
-            }
-        }
-    }
-}
-
-
