@@ -143,9 +143,9 @@ int consecPass(bool validMoves[8][8], int* player,char board[8][8],int* consecut
         }
         int temp = swapPlayer(*player);
         *player = temp;
-        return 0;
+        return 1;
     }
-    return 1;
+    return 0;
 }
 
 void getXY(int* x, int* y, int *move){
