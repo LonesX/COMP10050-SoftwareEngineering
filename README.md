@@ -18,6 +18,7 @@ Player
 * Both player colours are kept in player(1/2).colour.
 
 * The use of the randomisePlayer() is used to find who goes first.
+
 Game logic
 * The game is started using the play() function.
 
